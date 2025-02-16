@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Buscar Pokémon</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="search-form">
+    <h1>Buscar Pokémon</h1>
+    <form action="/pokemon/name-pokemon-ar/" method="get">
+        <input type="text" name="namePokemon" placeholder="Nombre del Pokémon" required>
+        <button type="submit">Buscar</button>
+    </form>
+</div>
+</body>
+</html>
